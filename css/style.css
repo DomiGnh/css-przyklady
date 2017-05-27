@@ -1,0 +1,19 @@
+* {
+    background-color: burlywood;
+}
+
+p {
+    background-color: hotpink;
+}
+
+
+/* pseudo selektory- before i after*/
+/* komentarze robimy ctr i slesh*/
+
+#par1::before 
+{
+    content:"*";
+    color: #fff;
+    font-size: 3em;
+}
+
