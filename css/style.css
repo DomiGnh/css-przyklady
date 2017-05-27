@@ -130,8 +130,8 @@ input[title$="tytuł" ]
 { background-color:pink;
 }
 
-
-
+input[value$="3"]
+{ font-size:2em;}
 
 
 
