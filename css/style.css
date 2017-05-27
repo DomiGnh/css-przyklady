@@ -1,6 +1,6 @@
-* {
+/** {
     background-color: burlywood;
-}
+}*/
 
 p {
     background-color: hotpink;
@@ -81,6 +81,57 @@ div:empty
     height:200px;
     background-color: aquamarine;
 }
+
+li:nth-child(odd)
+{
+    background-color: cornflowerblue;
+}
+
+li:nth-child(4)
+{
+    background-color:darkslategray;
+}
+
+li:nth-child(3n)
+{ background-color: fuchsia;}
+
+li:nth-child(2n+3):hover
+{ background-color:coral;}
+
+/*selektory atrybutów */
+
+input[title]
+{
+    background-color: darkcyan;
+}
+
+input[type="text"]
+{
+    background-color: red;
+}
+
+input[title="Tytuł"]
+{
+    background-color:grey;
+}
+
+input[title~="po" ]
+{ background-color: forestgreen;}
+
+input[title*="tyt" ]
+{ background-color:aquamarine;
+}
+
+input[title^="tytuł" ]
+{ background-color:red;
+}
+
+input[title$="tytuł" ]
+{ background-color:pink;
+}
+
+
+
 
 
 
